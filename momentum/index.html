@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="audio-title "></div>
+      <div class="player-controls">
+        <div class="main-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+        <button class="mute player-icon"></button>
+        </div>
+      </div>
+      <input class="seek" type="range"value=''>
+      <span class="currentaudioDuration"></span>
+      <span class="audioDuration"></span>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter Name]"/>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="setting-btn"></div>
+    <div class="setting-block">
+      <h3 class="setting-title">Settings</h3>
+      <div class="settings">
+        <div class="setting language">Language:</div>
+        <select name="language" id="language" value="">
+          <option value="ru">Russian</option>
+          <option value="en-US" selected="selected">English</option>
+        </select>
+      </div>
+      <div class="settings">
+        <div class="setting link-background">Photo source: </div>
+       <select name="photo-source" value="">
+          <option value="GitHub" selected="selected">GitHub</option>
+          <option value="unsplash">Unsplash API</option>
+          <option value="flickr">Flickr API</option>
+      </select>
+      </div>
+      <div class="settings setting-tags">
+        <div class="setting tags">Tags: </div>
+        <input type="text" class="tag" value="" >
+      </div>
+  
+        <div class="settings">
+          <div class="setting block">
+            <span>Hide the time </span>
+            <input name="time" id="time" type='checkbox' value="hide">
+            <label for="time">
+              <span class="check"></span>
+            </label>
+       </div>
+          </div>
+  
+        <div class="settings">
+          <div class="setting block">
+            <span> Hide the date </span>
+            <input name="date" id="date" type='checkbox' value="hide">
+            <label for="date">
+              <span class="check"></span>
+            </label>
+         </div>
+          </div>
+  
+        <div class="settings">
+          <div class="setting block">
+              <span>Hide the greeting </span>
+            <input name="greeting" id="greeting" type='checkbox' value="hide">
+            <label for="greeting">
+              <span class="check"></span>
+            </label>
+          </div>
+          </div>
+  
+        <div class="settings">
+          <div class="setting block">
+         <span>Hide the quote </span>
+            <input name="quote" id="quote" type='checkbox' value="hide">
+            <label for="quote">
+              <span class="check"></span>
+            </label>
+          </div>
+          </div>
+  
+        <div class="settings">
+          <div class="setting block">
+        <span>Hide the weather </span>
+            <input name="weather" id="weather" type='checkbox' value="hide">
+            <label for="weather">
+              <span class="check"></span>
+            </label>
+        </div>
+        </div>
+
+        <div class="settings">
+          <div class="setting block">
+       <span>Hide the audio </span>
+            <input name="audio" id="audio" type='checkbox' value="hide" >
+            <label for="audio">
+              <span class="check"></span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="settings">
+          <div class="setting block">
+       <span>Hide todo </span>
+            <input name="todo" id="todo" type='checkbox' value="hide" >
+            <label for="todo">
+              <span class="check"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <button class="todo" id="todo">Todo</button>
+    <div class="todo-block">
+      <div class="content">
+        <form class="add">
+          <input type="text" class="add-note" name="add" placeholder="Add item...">
+        </form>
+        <ul class="todos align">
+        </ul>
+      </div>
+    </div>
+    <div class="socials">
+      <ul class="socials-list">
+        <li class="socials-item"><a class="socials-link" href="https://github.com/aiz97" target="_blank">
+          <img src="./assets/svg/github.svg" alt="github" /></a>
+        </li>
+        <li class="socials-item">2022</li>
+        <li class="socials-item"><a class="socials-link" href="https://rs.school/js-stage0/" target="_blank">
+          <img src="./assets/svg/rs_school_js.svg" alt="RSSchool" /></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

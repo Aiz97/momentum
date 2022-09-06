@@ -1,0 +1,144 @@
+[
+    { "en-US": {
+            "text": "Live as if you were to die tomorrow. Learn as if you were to live forever",
+            "author": " Mahatma Gandhi"
+        },
+      "ru": {
+            "text": "Живи так, как будто ты умрёшь завтра. Учись так, как будто ты будешь жить вечно",
+            "author": "Махатма Ганди"
+        }
+    },
+    { "en-US": {
+            "text": "The biggest adventure you can ever take is to live the life of your dreams",
+            "author": "Oprah Winfrey"
+        },
+      "ru": {
+            "text": "Самое большое приключение, которое вы можете когда-либо предпринять, - это жить жизнью своей мечты",
+            "author": "Опра Уинфри"    
+        }
+    },
+    { "en-US": {
+            "text": "Beauty is everywhere. You only have to look to see it",
+            "author": "Bob Ross"
+        },
+        "ru": {
+            "text": "Красота везде. Вам нужно только посмотреть, чтобы увидеть это",
+            "author": "Боб Росс"
+        }
+        
+    },
+    { "en-US": {
+            "text": "It always seems impossible until it's done",
+            "author": "Nelson Mandela"
+        },
+        "ru": {
+            "text": "Это всегда кажется невозможным, пока это не сделано",
+            "author": "Нельсон Мандела"
+        }
+    },
+    { "en-US": {
+            "text": "It does not matter how slowly you go as long as you do not stop",
+            "author": "Confucius"
+        },
+      "ru": {
+            "text": "Неважно, как медленно ты идешь, пока ты не останавливаешься",
+            "author": "Конфуций"
+        }
+        
+    },
+    { "en-US": {
+            "text": "If you can dream it, you can do it",
+            "author": "Walt Disney"
+        },
+      "ru": {
+            "text": "Если ты можешь мечтать, то можешь и воплотить свои мечты в жизнь",
+            "author": "Уолт Дисней"
+        }
+    },
+    { "en-US": {
+            "text": "What you do today can improve all your tomorrows",
+            "author": "Ralph Marston"
+        },
+      "ru": {
+            "text": "То, что вы делаете сегодня, может улучшить все ваши завтра",
+            "author": "Ральф Марстон"
+        }
+    },
+    { "en-US": {
+            "text": "The purpose of our lives is to be happy",
+            "author": "Dalai Lama"
+        },
+      "ru": {
+            "text": "Цель нашей жизни - быть счастливым",
+            "author": "Далай Лама"
+        }
+    }, 
+    { "en-US": {
+            "text": "If you want to live a happy life, tie it to a goal, not to people or things",
+            "author": "Albert Einstein"
+        },
+        "ru": {
+            "text": "Если вы хотите вести счастливую жизнь, вы должны быть привязаны к цели, а не к людям или к вещам",
+            "author": "Альберт Энштейн"
+        } 
+    }, 
+    { "en-US": {
+            "text": "To live is the rarest thing in the world. Most people exist, that is all",
+            "author": "Oscar Wilde"
+        },
+        "ru": {
+            "text": "Жить - самая редкая вещь в мире. Большинство людей существует, вот и все",
+            "author": "Оскар Уайльд"
+        } 
+        
+    },
+    { "en-US": {
+            "text": "You can’t stop the waves, but you can learn to swim",
+            "author": "Jon Kabat Zinn"   
+        },
+        "ru": {
+            "text": "Вы не можете остановить волны, но вы можете научиться плавать",
+            "author": "Джон Кабат Цинн"
+        } 
+    },
+    { "en-US": {
+            "text": "Success is not final; failure is not fatal: It is the courage to continue that counts",
+            "author": "Winston S. Churchill"
+        },
+        "ru": {
+            "text": "Успех — не окончателен, неудачи — не фатальны, значение имеет лишь мужество продолжать",
+            "author": "Уинстон Черчилль"
+        } 
+        
+    },
+    { "en-US": {
+            "text": "Don’t let yesterday take up too much of today",
+            "author": "Will Rogers"
+        },
+        "ru": {
+            "text": "Не позволяйте вчерашнему дню отнимать у вас слишком много времени сегодня",
+            "author": "Уилл Роджерс"
+        } 
+        
+    },
+    { "en-US": {
+           "text": "Either you run the day or the day runs you",
+            "author": "Jim Rohn" 
+        },
+        "ru": {
+            "text": "Либо ты управляешь днем, либо день управляет тобой",
+            "author": "Джим Рон"
+        } 
+        
+    },
+    { "en-US": {
+            "text": "Education is the most powerful weapon which you can use to change the world",
+            "author": "Nelson Mandela"
+        },
+        "ru": {
+            "text": "Образование — самое мощное оружие, которое вы можете использовать, чтобы изменить мир",
+            "author": "Нельсон Мандела"
+        } 
+        
+    }
+  ]  
